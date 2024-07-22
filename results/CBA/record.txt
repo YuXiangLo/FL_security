@@ -1,0 +1,26 @@
+CBA (Cenralized Backdoor Attack):
+    poisoned_clients: 1
+    test accuracy: 0.60
+    epochs: 20
+    gamma: 20
+    clients: 5
+
+    poisoned_clients: 1
+    test accuracy: 0.73
+    epochs: 20
+    gamma: 20
+    clients: 5
+    defense:krum
+
+    poisoned_clients: 2
+    test accuracy: 0.13
+    epochs: 20
+    gamma: 20
+    clients: 5
+
+    poisoned_clients: 2
+    test accuracy: 0.73
+    epochs: 20
+    gamma: 20
+    clients: 5
+    defense:krum

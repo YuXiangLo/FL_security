@@ -1,0 +1,24 @@
+DBA : 
+    poisoned_clients: 4
+    normal accuracy: 0.75
+    test accuracy: 0.1
+    epochs: 20
+    clients: 10
+    gamma: 2
+
+    poisoned_clients: 4
+    normal accuracy: 0.6
+    test accuracy: 0.6
+    epochs: 20
+    clients: 10
+    gamma: 2
+    defense: krum
+
+    poisoned_clients: 4
+    normal accuracy: 0.75
+    test accuracy: 0.1
+    epochs: 20
+    clients: 10
+    gamma: 2
+    defense: minVar
+

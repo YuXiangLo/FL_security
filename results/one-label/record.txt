@@ -1,0 +1,23 @@
+No Attack : 
+    accuracy: 0.884
+    epochs: 10
+    clients: 5 
+
+One-label Attack : 
+    poisoned_clients: 1
+    accuracy: 0.2 -> 0.7
+    test accuracy: 0.665
+    epochs: 10
+    clients: 5
+
+    poisoned_clients: 2
+    accuracy: 0.40 -> 0.35 -> 0.45
+    test accuracy: 0.46
+    epochs: 10
+    clients: 5
+
+    poisoned_clients: 3
+    accuracy: 0.642
+    test accuracy: 0.1
+    epochs: 10
+    clients: 5
